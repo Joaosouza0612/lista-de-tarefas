@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        #input-tarefa{
+            width: 50%;
+        }
+
+        .bt{
+            border-radius: 20%;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form>
+        <label>Insira a tarefa:
+            <input type="text" id="input-tarefa">
+            <input type="button" value="✔️" class="bt" id="bt-enviar">
+        </label>
+    </form>
+    <section>
+        <ul id="lista-de-tarefas">
+            <!-- <li data-chave="1" class="tarefa">
+                TAREFA 1
+                <input type="button" value="❌" class="bt">
+            </li>
+            <li data-chave="2" class="tarefa">
+                TAREFA 2
+                <input type="button" value="❌" class="bt">
+            </li>            -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
