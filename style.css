@@ -35,14 +35,12 @@ li{
     font-size: 1rem;
 }
 
-/* Efeito de apertar o botão */
 .bt:active {
     transform: scale(0.90);
 }
 
-/* Botão de Enviar (✔️) */
 #bt-enviar {
-    background-color: #28a745; /* Verde */
+    background-color: #28a745; 
 }
 
 #bt-enviar:hover {
@@ -50,9 +48,8 @@ li{
     box-shadow: 0 0 8px rgba(40, 167, 69, 0.4);
 }
 
-/* Botão de Limpar (🧹) - Criado via JS */
 #bt-limpar {
-    background-color: #fd7e14; /* Laranja */
+    background-color: #fd7e14; 
 }
 
 #bt-limpar:hover {
@@ -60,17 +57,16 @@ li{
     box-shadow: 0 0 8px rgba(253, 126, 20, 0.4);
 }
 
-/* Botão de Excluir (❌) que fica dentro da lista */
 .tarefa .bt {
-    background-color: #dc3545; /* Vermelho */
-    margin-left: auto; /* Empurra o X para o final da linha */
+    background-color: #dc3545; 
+    margin-left: auto; 
 }
 
 .tarefa .bt:hover {
     background-color: #c82333;
 }
 
-/* Estilização extra para o checkbox ficar bonitinho */
+
 input[type="checkbox"] {
     margin-right: 10px;
     cursor: pointer;
